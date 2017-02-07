@@ -13,5 +13,18 @@
     "serverTest": "tsc && node build/test/server/batch.js",
     "clientTest": "tsc && node build/test/client.js"
   },
-  "author": "jackyanjiaqi"
+  "author": "jackyanjiaqi",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/jackyanjiaqi/task-queue-service.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "queue",
+    "task",
+    "service",
+    "server",
+    "client",
+    "standalone"
+  ]
 }
