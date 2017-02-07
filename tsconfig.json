@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "declaration": true,
+        "outDir": "build/",
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules",
+        "public",
+        "bundle"
+    ]
+}

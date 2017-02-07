@@ -1,0 +1,17 @@
+{
+  "name": "task-queue-service",
+  "version": "0.0.1",
+  "description": "standalone service component Which executes a task with bundle requests from a queue,dynamically quicken the procedure by queue state(waiting time and amount) and history state,lower average request waiting time.",
+  "main": "build/TaskQueueService.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "async":"^1.4.2"
+  },
+  "scripts": {
+    "compile" : "tsc",
+    "serverTest": "tsc && node build/test/server/batch.js",
+    "clientTest": "tsc && node build/test/client.js"
+  },
+  "author": "jackyanjiaqi"
+}
